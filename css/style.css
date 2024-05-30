@@ -31,3 +31,37 @@
     text-align: right;
     color: white;
 }
+
+/* my css */
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Dancing Script";
+}
+
+button{
+    padding: .1rem .8rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 2rem;
+    background: cyan;
+    color: black;
+}
+
+button:active{
+    background: darkcyan;
+    color: purple;
+}
+
+img:active{
+    border: 2px solid orange;
+}
+
+.item .text {
+    font-family: "Dancing Script";
+}
+
+.item img{
+    object-fit: fill;
+}
