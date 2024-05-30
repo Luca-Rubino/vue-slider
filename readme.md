@@ -9,3 +9,10 @@ Bonus:
 1 - Aggiungere le thumbnails che si illuminano quando la relativa immagine e' attiva
 
 2-  Aggiungere un evento di click sulle thumbnails per rendere attiva l'immagine relativa
+
+Svolgimento:
+
+- Collegare Vue correttamente all'html
+- Inserire i tag botton nel file html
+- Inserire le v-bind all'interno dell'html per i riferimenti all'oggetto
+- Inserire l'array di oggetti all'interno del Global Build di Vue scritto nell'file js
