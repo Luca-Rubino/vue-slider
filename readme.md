@@ -18,4 +18,5 @@ Svolgimento:
 - Inserire l'array di oggetti all'interno del Global Build di Vue scritto nell'file js
 - Inserire nel file js la proprietà esterna all'array per avere il riferimento al primo oggetto dell'array
 - Inserire nell' html i framework di Vue per collegare l'array in javascript con il carosello creato
-- Costruire le funzioni con if...else per creare lo scorrimento degli oggetti dell'array presenti nel carosello  
+- Costruire le funzioni con if...else per creare lo scorrimento degli oggetti dell'array presenti nel carosello
+- Inserire nei tag button i framework @click con riferimento alle funzioni create per lo scorrimento degli oggetti 
