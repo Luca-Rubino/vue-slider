@@ -16,3 +16,6 @@ Svolgimento:
 - Inserire i tag botton nel file html
 - Inserire le v-bind all'interno dell'html per i riferimenti all'oggetto
 - Inserire l'array di oggetti all'interno del Global Build di Vue scritto nell'file js
+- Inserire nel file js la proprietà esterna all'array per avere il riferimento al primo oggetto dell'array
+- Inserire nell' html i framework di Vue per collegare l'array in javascript con il carosello creato
+- Costruire le funzioni con if...else per creare lo scorrimento degli oggetti dell'array presenti nel carosello  
