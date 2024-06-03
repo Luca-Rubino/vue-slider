@@ -22,7 +22,7 @@
 
     <div id="app">
         <div class="container">
-            <button>&lsaquo;</button>
+            <button @click="prevImg">&lsaquo;</button>
             <div class="item" v-for="(slides, i) in slides" v-show="ActiveObject === i">
                 <img :src="slides.image" :alt="slides.title"/>
                 <div class="text">
@@ -30,7 +30,7 @@
                     <p>{{slides.text}}</p>
                 </div>
             </div>
-            <button>&rsaquo;</button>
+            <button @click="nextImg">&rsaquo;</button>
         </div>
     </div>
     <!-- Vue3 -->
