@@ -40,26 +40,29 @@ h1{
     font-family: "Dancing Script";
 }
 
+h3{
+    font-family: "Dancing Script";
+}
+
 button{
-    padding: .1rem .8rem;
-    border-radius: 50%;
+    padding: .1rem .5rem;
     border: 1px solid black;
     font-size: 2rem;
-    background: cyan;
+    background: #d7e8e8;
     color: black;
 }
 
 button:active{
-    background: darkcyan;
-    color: purple;
+    background: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
 }
 
 img:active{
-    border: 2px solid orange;
+    border: 2px solid white;
 }
 
 .item .text {
-    font-family: "Dancing Script";
+    font-family: "Jacquard 12", system-ui;
 }
 
 .item img{
