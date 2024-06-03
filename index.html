@@ -23,18 +23,15 @@
     <div id="app">
         <div class="container">
             <button>&lsaquo;</button>
-            <div class="slider-wrapper" tabindex="0">
-                <div class="item">
-                    <img :src="image" :alt="title"/>
-                    <div class="text">
-                        <h3>{{title}}</h3>
-                        <p>{{text}}</p>
-                    </div>
+            <div class="item" v-for="(slides, i) in slides" v-show="ActiveObject === i">
+                <img :src="slides.image" :alt="slides.title"/>
+                <div class="text">
+                    <h3>{{slides.title}}</h3>
+                    <p>{{slides.text}}</p>
                 </div>
             </div>
             <button>&rsaquo;</button>
         </div>
-
     </div>
     <!-- Vue3 -->
     <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>
